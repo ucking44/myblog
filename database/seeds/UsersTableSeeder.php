@@ -19,7 +19,7 @@ class UsersTableSeeder extends Seeder
             'username' => 'ucking44',
             // 'email' => 'admin@blog.com',
             'email' => 'ucking4niga@yahoo.com',
-            'password' => bcrypt('ucking44'),
+            'password' => bcrypt('12345678'),
         ]);
 
         DB::table('users')->insert([
@@ -29,7 +29,7 @@ class UsersTableSeeder extends Seeder
             'username' => 'ucking77',
             // 'username' => 'author',
             'email' => 'ucking44@gmail.com',
-            'password' => bcrypt('ucking44'),
+            'password' => bcrypt('12345678'),
         ]);
     }
 }
